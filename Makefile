@@ -11,6 +11,7 @@ install:
 
 certificate:
 	@./$(MKCERT_FILE) $(DOMAIN)
+	@./$(MKCERT_FILE) -install
 
 clean:
 	@rm $(DOMAIN).pem $(DOMAIN)-key.pem
