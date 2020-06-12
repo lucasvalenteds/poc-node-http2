@@ -1,8 +1,8 @@
 # POC: HTTP/2
 
-It demonstrates how to run a [Node.js](https://github.com/nodejs/node) server that responds [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) with a development-only [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) certificate.
+It demonstrates how to run a [Node.js](https://github.com/nodejs/node) server that responds [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) using a development-only [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) certificate generated using [mkcert](https://github.com/FiloSottile/mkcert).
 
-Both the certificate and its key are generated using [mkcert](https://github.com/FiloSottile/mkcert).
+We want the HTTP responses encrypted and streamed.
 
 ## How to run
 
