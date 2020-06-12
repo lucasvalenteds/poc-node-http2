@@ -15,6 +15,7 @@ certificate:
 
 clean:
 	@rm $(DOMAIN).pem $(DOMAIN)-key.pem
+	@./$(MKCERT_FILE) -uninstall
 
 run:
 	@DOMAIN=$(DOMAIN) PORT=$(PORT) npm start
