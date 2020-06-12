@@ -3,7 +3,7 @@ MKCERT_FILE = mkcert
 DOMAIN ?= localhost
 PORT ?= 8443
 
-install:
+download:
 	@curl --silent --location --remote-header-name \
 			--output $(MKCERT_FILE) \
 			https://github.com/FiloSottile/mkcert/releases/download/v$(MKCERT_VERSION)/mkcert-v$(MKCERT_VERSION)-linux-amd64
